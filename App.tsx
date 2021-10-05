@@ -1,8 +1,14 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { Signin } from './src/pages/Signin';
+import { theme } from './src/global/styles/theme';
 
 export default function App() {
   return (
-    <Signin />
+    <>
+      <ThemeProvider theme={theme}>
+        <Signin />
+      </ThemeProvider >
+    </>
   );
 }
