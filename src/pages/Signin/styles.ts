@@ -8,7 +8,7 @@ export const Container = styled.View`
 `
 
 export const Content = styled.View`
-  margin-top: -40px;
+  margin-top: -38px;
 `
 
 export const Title = styled.Text`
