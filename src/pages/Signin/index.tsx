@@ -18,9 +18,9 @@ export function Signin() {
       <Image source={Ilustration} />
       <Content>
         <Title>
-          Organize {`\n`} 
-          suas jogatinas  {`\n`}
-          facilmente
+          Conecte-se {`\n`} 
+          e organize suas  {`\n`}
+          jogatinas
         </Title>
         <SubTitle>
           Crie grupos para jogar seus games {`\n`}

@@ -8,7 +8,7 @@ export const Container = styled.View`
 `
 
 export const Content = styled.View`
-  margin-top: -38px;
+  margin-top: -40px;
 `
 
 export const Title = styled.Text`
@@ -24,6 +24,4 @@ export const SubTitle = styled.Text`
   font-size: 21px;
   text-align: center;
   margin-bottom: 64px;
-  font-weight: bold;
-
 `
