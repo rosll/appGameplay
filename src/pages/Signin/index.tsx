@@ -32,7 +32,10 @@ export function Signin() {
           Crie grupos para jogar seus games {`\n`}
           favoritos com seus amigos 
         </SubTitle>
-        <ButtonIcon></ButtonIcon>
+        <ButtonIcon 
+          title='Entrar com Discord'
+          activeOpacity={0.7}
+        />
       </Content>
     </Container>
   )

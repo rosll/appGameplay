@@ -3,7 +3,14 @@ export const theme = {
     background: '#0D133D',
     heading: '#DDE3F0',
     primary: '#E51C44',
-    line: '#991F36'
+    line: '#991F36',
+    secondary100: '#0A1033',
+    secondary90: '#0D133D',
+    secondary80: '#0D133D',
+    secondary70: '#0D133D',
+    secondary60: '#243189',
+    secondary50: '#1D2766',
+    secondary40: '#495BCC'
   },
   fonts: {
     title700: 'Rajdhani_700Bold',
