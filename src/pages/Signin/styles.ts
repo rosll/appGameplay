@@ -4,7 +4,7 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.background};
+  /* background-color: ${({ theme }) => theme.colors.background}; */
 `
 
 export const Content = styled.View`
@@ -22,7 +22,7 @@ export const Title = styled.Text`
 
 export const SubTitle = styled.Text`
   color: ${({ theme }) => theme.colors.heading};
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 64px;
 `

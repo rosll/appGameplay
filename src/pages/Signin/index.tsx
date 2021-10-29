@@ -1,8 +1,8 @@
 import React from 'react';
 import { 
-  Image,
-  StatusBar
+  Image
 } from 'react-native';
+
 import Ilustration from '../../assets/illustration.png';
 import { ButtonIcon } from '../../components/ButtonIcon';
 import { 
@@ -16,11 +16,6 @@ import {
 export function Signin() {
   return (
     <Container>
-      <StatusBar
-        barStyle='light-content'
-        backgroundColor='transparent'
-        translucent={true}
-      />
       <Image source={Ilustration} />
       <Content>
         <Title>
