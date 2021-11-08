@@ -1,4 +1,5 @@
 import React from 'react';
+import { Avatar } from '../Avatar';
 import { 
   Container,
   Content,
@@ -11,6 +12,7 @@ import {
 export function Profile(){
   return (
     <Container>
+      <Avatar urlImage='https://avatars.githubusercontent.com/u/49794825?v=4' />
       <Content>
         <User>
           <Greeting>
@@ -21,7 +23,7 @@ export function Profile(){
           </UserName>
         </User>
         <Message>
-          Hoje é dia de ousadia e alegria
+          sayoraná meu dignissimo
         </Message>
       </Content>
     </Container>
